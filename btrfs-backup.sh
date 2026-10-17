@@ -1,7 +1,6 @@
 #!/bin/bash
 set -uo pipefail
 
-# ====== AJUSTE AQUI ======
 RAID_MNT="" # ponto de montagem do destino (precisa estar no fstab)
 DEST=""     # onde os snapshots são recebidos
 KEEP_SRC=3  # snapshots mantidos na origem (mínimo 2)
